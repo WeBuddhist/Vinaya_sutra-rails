@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-SOURCES/Commentaries/འདུལ་བའི་མདོའི་འགྲེལ་པ་མངོན་པར་བརྗོད་པ་རང་གི་རྣམ་པར་བཤད་པ།.md",
+                "file": "1-SOURCES/Commentaries/འདུལ་བ་མཐའ་དག་གི་སྙིང་པོའི་དོན་ལེགས་པར་བཤད་པ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "འདུལ་བའི་མདོའི་འགྲེལ་པ་མངོན་པར་བརྗོད་པ་རང་གི་རྣམ་པར་བཤད་པ།"
+              "title": "འདུལ་བ་མཐའ་དག་གི་སྙིང་པོའི་དོན་ལེགས་པར་བཤད་པ་རིན་པོ་ཆེའི་ཕྲེང་བ།"
             }
           }
         ]
@@ -199,11 +199,13 @@
   },
   "active": "7e0d7c8e2e719853",
   "lastOpenFiles": [
-    "1-SOURCES/Commentaries/འདུལ་བ་མཐའ་དག་གི་སྙིང་པོའི་དོན་ལེགས་པར་བཤད་པ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md",
     "1-SOURCES/Commentaries/འདུལ་བའི་མདོའི་འགྲེལ་པ་མངོན་པར་བརྗོད་པ་རང་གི་རྣམ་པར་བཤད་པ།.md",
+    "1-SOURCES/Commentaries/འདུལ་བའི་མདོའི་རྒྱ་ཆེར་འགྲེལ་པ།.md",
+    "1-SOURCES/Commentaries/ཡིག་ཆ་དྲུག་པ།-བར་སྟོང་མེད་པ།.md",
+    "1-SOURCES/Commentaries/ཡིག་ཆ་ལྔ་པ།-བར་སྟོང་མེད་པ།.md",
+    "1-SOURCES/Commentaries/འདུལ་བ་མཐའ་དག་གི་སྙིང་པོའི་དོན་ལེགས་པར་བཤད་པ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md",
     "1-SOURCES/Commentaries/བསྟན་བཅོས་འདུལ་བ་མདོ་རྩ་བའི་སྤྱི་དོན་ཊཱིཀ་ཆེན་རིན་ཆེན་ཕྲེང་བའི་དགོངས་རྒྱན།.md",
     "1-SOURCES/Commentaries/ཡིག་ཆ་བཞི་པ།-བར་སྟོང་མེད་པ།.md",
-    "1-SOURCES/Commentaries/འདུལ་བའི་མདོའི་རྒྱ་ཆེར་འགྲེལ་པ།.md",
     "1-SOURCES/Commentaries/བསྟན་བཅོས་འདུལ་བ་མདོ་རྩ་བའི་སྤྱི་དོན་ཊཱིཀ་ཆེན་རིན་ཆེན་ཕྲེང་བའི་དགོངས་རྒྱན.md",
     "1-SOURCES/Commentaries/འདུལ་བ་མཐའ་དག་གི་སྙིང་པོའི་དོན་ལེགས་པར་བཤད་པ་རིན་པོ་ཆེའི་ཕྲེང་བ། སྟོད་ཆ།.md",
     "1-SOURCES/Commentaries/འདུལ་བ་མདོ་རྩའི་རྣམ་བཤད་ཉི་མའི་འོད་ཟེར་ལེགས་བཤད་ལུང་གི་རྒྱ་མཚོ། སྨད་ཆ།.md",
@@ -232,8 +234,6 @@
     "4-SYSTEM/Skills/epub-to-markdown/converters/README.md",
     "4-SYSTEM/Skills/verse-context/SKILL.md",
     "4-SYSTEM/Skills/vault-audit/SKILL.md",
-    "4-SYSTEM/Skills/translation-frontmatter/SKILL.md",
-    "4-SYSTEM/Skills/source-property-extractor/SKILL.md",
-    "4-SYSTEM/Skills/structural-outline-ingest/SKILL.md"
+    "4-SYSTEM/Skills/translation-frontmatter/SKILL.md"
   ]
 }
