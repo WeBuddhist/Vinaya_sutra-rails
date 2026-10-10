@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-SOURCES/Commentaries/འདུལ་བའི་མདོའི་རྒྱ་ཆེར་འགྲེལ་པ། སྨད་ཆ།.md",
+                "file": "1-SOURCES/Commentaries/འདུལ་བ་མཐའ་དག་གི་སྙིང་པོའི་དོན་ལེགས་པར་བཤད་པ་རིན་པོ་ཆེའི་ཕྲེང་བ། སྟོད་ཆ།.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "འདུལ་བའི་མདོའི་རྒྱ་ཆེར་འགྲེལ་པ། སྨད་ཆ།"
+              "title": "འདུལ་བ་མཐའ་དག་གི་སྙིང་པོའི་དོན་ལེགས་པར་བཤད་པ་རིན་པོ་ཆེའི་ཕྲེང་བ། སྟོད་ཆ།"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 225.55078125
   },
   "right": {
     "id": "08fb4a0a47ab3b49",
@@ -158,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "1-SOURCES/Commentaries/འདུལ་བ་མཐའ་དག་གི་སྙིང་པོའི་དོན་ལེགས་པར་བཤད་པ་རིན་པོ་ཆེའི་ཕྲེང་བ། སྟོད་ཆ།.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline"
             }
           },
           {
@@ -178,11 +178,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 328.01953125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,43 +197,43 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "7e0d7c8e2e719853",
+  "active": "1010fdbaeceef62a",
   "lastOpenFiles": [
-    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_026.md",
+    "1-SOURCES/Text/འདུལ་བ་མདོ་རྩ་བ།.md",
+    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_066.md",
+    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_065.md",
+    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_063.md",
+    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_061.md",
+    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_067.md",
+    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_064.md",
+    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_062.md",
+    "0-INBOX/temp/TOC-vinaya-sutra/toc-tree-vinaya-sutra.md",
+    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_055.md",
+    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_060.md",
+    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_052.md",
+    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_056.md",
+    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_058.md",
+    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_059.md",
+    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_054.md",
+    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_053.md",
+    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_051.md",
+    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_057.md",
+    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_045.md",
+    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_050.md",
+    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_048.md",
+    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_049.md",
+    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_047.md",
+    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_040.md",
+    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_041.md",
     "gemini-scribe/Scheduled-Tasks/Runs",
     "gemini-scribe/Skills",
     "gemini-scribe/Background-Tasks",
     "gemini-scribe/Agent-Sessions",
-    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_025.md",
-    "1-SOURCES/Commentaries/འདུལ་བའི་མདོའི་རྒྱ་ཆེར་འགྲེལ་པ། སྟོད་ཆ།.md",
-    "1-SOURCES/Commentaries/འདུལ་བའི་མདོའི་འགྲེལ་པ་མངོན་པར་བརྗོད་པ་རང་གི་རྣམ་པར་བཤད་པ། སྨད་ཆ།.md",
-    "1-SOURCES/Commentaries/འདུལ་བའི་མདོའི་འགྲེལ་པ་མངོན་པར་བརྗོད་པ་རང་གི་རྣམ་པར་བཤད་པ། སྟོད་ཆ།.md",
-    "1-SOURCES/Commentaries/འདུལ་བ་མདོ་རྩའི་རྣམ་བཤད་ཉི་མའི་འོད་ཟེར་ལེགས་བཤད་ལུང་གི་རྒྱ་མཚོ། སྨད་ཆ།.md",
-    "1-SOURCES/Commentaries/འདུལ་བ་མདོ་རྩའི་རྣམ་བཤད་ཉི་མའི་འོད་ཟེར་ལེགས་བཤད་ལུང་གི་རྒྱ་མཚོ། སྟོད་ཆ།.md",
-    "1-SOURCES/Commentaries/འདུལ་བ་མདོ་རྩའི་རྣམ་བཤད་ཉི་མའི་འོད་ཟེར་ལེགས་བཤད་ལུང་གི་རྒྱ་མཚོ། སྟོད་ཆ་དང་པོ།.md",
-    "1-SOURCES/Commentaries/འདུལ་བ་མཐའ་དག་གི་སྙིང་པོའི་དོན་ལེགས་པར་བཤད་པ་རིན་པོ་ཆེའི་ཕྲེང་བ། སྨད་ཆ།.md",
-    "1-SOURCES/Commentaries/འདུལ་བ་མཐའ་དག་གི་སྙིང་པོའི་དོན་ལེགས་པར་བཤད་པ་རིན་པོ་ཆེའི་ཕྲེང་བ། སྟོད་ཆ།.md",
-    "README.md",
     "gemini-scribe/Scheduled-Tasks/scheduled-tasks-state.json",
-    "gemini-scribe/Prompts/example-expert.md",
     "gemini-scribe/Scheduled-Tasks",
     "gemini-scribe/Prompts",
     "gemini-scribe",
-    "CLAUDE.md",
     "4-SYSTEM/Skills/json-to-commentary/scripts/converters/__pycache__/tipitaka_org_atthakatha.cpython-310.pyc",
-    "4-SYSTEM/Skills/json-to-commentary/scripts/converters/tipitaka_org_atthakatha.py",
-    "4-SYSTEM/Skills/epub-to-markdown/converters/README.md",
-    "4-SYSTEM/Skills/verse-context/SKILL.md",
-    "4-SYSTEM/Skills/vault-audit/SKILL.md",
-    "4-SYSTEM/Skills/translation-frontmatter/SKILL.md",
-    "4-SYSTEM/Skills/source-property-extractor/SKILL.md",
-    "4-SYSTEM/Skills/structural-outline-ingest/SKILL.md",
-    "4-SYSTEM/Skills/section-summary-combined/SKILL.md",
-    "4-SYSTEM/Skills/section-summary-raw/SKILL.md",
-    "4-SYSTEM/Skills/root-text-frontmatter/SKILL.md",
-    "4-SYSTEM/Skills/reference-frontmatter/SKILL.md",
-    "4-SYSTEM/Skills/property-creator/SKILL.md",
-    "4-SYSTEM/Skills/json-to-source-text/SKILL.md",
-    "4-SYSTEM/Skills/local-wiki-article/SKILL.md"
+    "4-SYSTEM/Skills/json-to-commentary/scripts/converters/tipitaka_org_atthakatha.py"
   ]
 }
