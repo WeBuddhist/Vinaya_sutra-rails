@@ -1,0 +1,8 @@
+0-INBOX/seg-toc/rinphreng-stod.prep.md: removed 0 git markers, 0 blockquote prefixes, 0 bare headings, 0 hashes, 0 latin letters, 0 ASCII digits, 0 replacement chars, 0 numbers, 0 block IDs; emitted 21 blocks.
+Report: 0-INBOX/seg-toc/rinphreng-stod.preclean.tsv
+Wrote 0-INBOX/seg-toc/rinphreng-stod.preclean.md
+0-INBOX/seg-toc/rinphreng-stod.preclean.md: 5879 segments, 2 flagged for Stage-2 review.
+Quote balance: 312 quote-open / 90 quote-close -> MISMATCH -- check citations for an unclosed or stray quote marker.
+Report: 0-INBOX/seg-toc/rinphreng-stod.segreport.tsv
+Wrote 0-INBOX/seg-toc/rinphreng-stod.units.md
+EXIT 0

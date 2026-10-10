@@ -1,0 +1,8 @@
+0-INBOX/seg-toc/nyi-od-stod.prep.md: removed 0 git markers, 0 blockquote prefixes, 0 bare headings, 0 hashes, 0 latin letters, 9 ASCII digits, 0 replacement chars, 0 numbers, 0 block IDs; emitted 74 blocks.
+Report: 0-INBOX/seg-toc/nyi-od-stod.preclean.tsv
+Wrote 0-INBOX/seg-toc/nyi-od-stod.preclean.md
+0-INBOX/seg-toc/nyi-od-stod.preclean.md: 12323 segments, 0 flagged for Stage-2 review.
+Quote balance: 2286 quote-open / 1612 quote-close -> MISMATCH -- check citations for an unclosed or stray quote marker.
+Report: 0-INBOX/seg-toc/nyi-od-stod.segreport.tsv
+Wrote 0-INBOX/seg-toc/nyi-od-stod.units.md
+EXIT 0
