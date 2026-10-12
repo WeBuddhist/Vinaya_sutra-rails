@@ -11,10 +11,14 @@
             "id": "530d1d6e862c57f5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "1-SOURCES/Text/འདུལ་བ་མདོ་རྩ་བ།.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "འདུལ་བ་མདོ་རྩ་བ།"
             }
           }
         ]
@@ -76,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 381.0996742248535
+    "width": 381.0996742248535,
+    "collapsed": true
   },
   "right": {
     "id": "08fb4a0a47ab3b49",
