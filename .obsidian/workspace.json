@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1deceb04aaa43596",
+        "id": "c0741d09952cc726",
         "type": "tabs",
         "children": [
           {
-            "id": "7e0d7c8e2e719853",
+            "id": "0bd520c8590012c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -197,18 +197,18 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "7e0d7c8e2e719853",
+  "active": "0bd520c8590012c4",
   "lastOpenFiles": [
-    "1-SOURCES/Text/འདུལ་བ་མདོ་རྩ་བ།_དབྱེ་བ།.md",
-    "1-SOURCES/Text/འདུལ་བ་མདོ་རྩ་བ།.md",
-    "1-SOURCES/Text/འདུལ་བའི་མདོ།_ཤོ་ལོ་ཀ་བགོས་པ (2).md",
-    "1-SOURCES/Text/འདུལ་བའི་མདོ།_ཤོ་ལོ་ཀ་བགོས་པ (1).md",
-    "1-SOURCES/Text/འདུལ་བའི་མདོ།_ཤོ་ལོ་ཀ་བགོས་པ.md",
-    "1-SOURCES/Commentaries/འདུལ་བའི་མདོའི་རྒྱ་ཆེར་འགྲེལ་པ།.md",
     "1-SOURCES/Commentaries/འདུལ་བའི་མདོའི་འགྲེལ་པ་མངོན་པར་བརྗོད་པ་རང་གི་རྣམ་པར་བཤད་པ།.md",
     "1-SOURCES/Commentaries/འདུལ་བ་མཐའ་དག་གི་སྙིང་པོའི་དོན་ལེགས་པར་བཤད་པ་རིན་པོ་ཆེའི་ཕྲེང་བ། སྨད་ཆ།.md",
     "1-SOURCES/Commentaries/འདུལ་བ་མཐའ་དག་གི་སྙིང་པོའི་དོན་ལེགས་པར་བཤད་པ་རིན་པོ་ཆེའི་ཕྲེང་བ། སྟོད་ཆ།.md",
     "1-SOURCES/Commentaries/བསྟན་བཅོས་འདུལ་བ་མདོ་རྩ་བའི་སྤྱི་དོན་ཊཱིཀ་ཆེན་རིན་ཆེན་ཕྲེང་བའི་དགོངས་རྒྱན།.md",
+    "1-SOURCES/Text/འདུལ་བ་མདོ་རྩ་བ།.md",
+    "gemini-scribe/Scheduled-Tasks/Runs",
+    "gemini-scribe/Skills",
+    "gemini-scribe/Background-Tasks",
+    "gemini-scribe/Agent-Sessions",
+    "1-SOURCES/Commentaries/འདུལ་བའི་མདོའི་རྒྱ་ཆེར་འགྲེལ་པ།.md",
     "1-SOURCES/Commentaries/འདུལ་བའི་རྒྱ་ཆེར་འགྲེལ་པ་གཏུབ་ཟིན།.md",
     "1-SOURCES/Commentaries/རིན་ཆེན་ཕྲེང་བ་སྨད་ཆ་གཏུབ་ཟིན།.md",
     "1-SOURCES/Commentaries/རིན་ཆེན་ཕྲེང་བ་སྟོད་ཆ་གཏུབ་ཟིན།.md",
@@ -225,10 +225,10 @@
     "1-SOURCES/Commentaries/བསྟན་བཅོས་འདུལ་བ་མདོ་རྩ་བའི་སྤྱི་དོན་ཊཱིཀ་ཆེན་རིན་ཆེན་ཕྲེང་བའི་དགོངས་རྒྱན.md",
     "1-SOURCES/Commentaries/འདུལ་བ་མདོ་རྩའི་རྣམ་བཤད་ཉི་མའི་འོད་ཟེར་ལེགས་བཤད་ལུང་གི་རྒྱ་མཚོ། སྨད་ཆ།.md",
     "1-SOURCES/Commentaries/འདུལ་བའི་མདོའི་རྒྱ་ཆེར་འགྲེལ་པ། སྟོད་ཆ།.md",
-    "gemini-scribe/Scheduled-Tasks/Runs",
-    "gemini-scribe/Skills",
-    "gemini-scribe/Background-Tasks",
-    "gemini-scribe/Agent-Sessions",
+    "1-SOURCES/Commentaries/འདུལ་བའི་མདོའི་རྒྱ་ཆེར་འགྲེལ་པ། སྨད་ཆ།.md",
+    "1-SOURCES/Commentaries/འདུལ་བའི་མདོའི་འགྲེལ་པ་མངོན་པར་བརྗོད་པ་རང་གི་རྣམ་པར་བཤད་པ། སྟོད་ཆ།.md",
+    "1-SOURCES/Commentaries/འདུལ་བ་མདོ་རྩའི་རྣམ་བཤད་ཉི་མའི་འོད་ཟེར་ལེགས་བཤད་ལུང་གི་རྒྱ་མཚོ། སྟོད་ཆ་དང་པོ།.md",
+    "1-SOURCES/Commentaries/འདུལ་བའི་མདོའི་འགྲེལ་པ་མངོན་པར་བརྗོད་པ་རང་གི་རྣམ་པར་བཤད་པ། སྨད་ཆ།.md",
     "gemini-scribe/Scheduled-Tasks/scheduled-tasks-state.json",
     "gemini-scribe/Scheduled-Tasks",
     "gemini-scribe/Prompts",
