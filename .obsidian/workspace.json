@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-SOURCES/Commentaries/འདུལ་བ་མཐའ་དག་གི་སྙིང་པོའི་དོན་ལེགས་པར་བཤད་པ་རིན་པོ་ཆེའི་ཕྲེང་བ། སྟོད་ཆ།.md",
+                "file": "1-SOURCES/Text/འདུལ་བ་མདོ་རྩ་བ།.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "འདུལ་བ་མཐའ་དག་གི་སྙིང་པོའི་དོན་ལེགས་པར་བཤད་པ་རིན་པོ་ཆེའི་ཕྲེང་བ། སྟོད་ཆ།"
+              "title": "འདུལ་བ་མདོ་རྩ་བ།"
+            }
+          },
+          {
+            "id": "8a5c5a9624d3bb1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -158,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-SOURCES/Commentaries/འདུལ་བ་མཐའ་དག་གི་སྙིང་པོའི་དོན་ལེགས་པར་བཤད་པ་རིན་པོ་ཆེའི་ཕྲེང་བ། སྟོད་ཆ།.md",
+                "file": "conflict-files-obsidian-git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -197,9 +212,16 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "1010fdbaeceef62a",
+  "active": "8a5c5a9624d3bb1f",
   "lastOpenFiles": [
     "1-SOURCES/Text/འདུལ་བ་མདོ་རྩ་བ།.md",
+    "conflict-files-obsidian-git.md",
+    "1-SOURCES/Commentaries/འདུལ་བ་མཐའ་དག་གི་སྙིང་པོའི་དོན་ལེགས་པར་བཤད་པ་རིན་པོ་ཆེའི་ཕྲེང་བ། སྟོད་ཆ།.md",
+    "1-SOURCES/Commentaries/རིན་ཆེན་ཕྲེང་བ་སྨད་ཆ་གཏུབ་ཟིན།.md",
+    "1-SOURCES/Commentaries/རིན་ཆེན་ཕྲེང་བ་སྟོད་ཆ་གཏུབ་ཟིན།.md",
+    "1-SOURCES/Commentaries/འདུལ་བའི་མདོའི་རྒྱ་ཆེར་འགྲེལ་པ།.md",
+    "1-SOURCES/Commentaries/འདུལ་བའི་མདོའི་འགྲེལ་པ་མངོན་པར་བརྗོད་པ་རང་གི་རྣམ་པར་བཤད་པ།.md",
+    "1-SOURCES/Commentaries/བསྟན་བཅོས་འདུལ་བ་མདོ་རྩ་བའི་སྤྱི་དོན་ཊཱིཀ་ཆེན་རིན་ཆེན་ཕྲེང་བའི་དགོངས་རྒྱན།.md",
     "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_066.md",
     "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_065.md",
     "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_063.md",
@@ -218,13 +240,6 @@
     "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_053.md",
     "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_051.md",
     "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_057.md",
-    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_045.md",
-    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_050.md",
-    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_048.md",
-    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_049.md",
-    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_047.md",
-    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_040.md",
-    "0-INBOX/temp/TOC-rinphreng-stod/candidates/chunk_041.md",
     "gemini-scribe/Scheduled-Tasks/Runs",
     "gemini-scribe/Skills",
     "gemini-scribe/Background-Tasks",
