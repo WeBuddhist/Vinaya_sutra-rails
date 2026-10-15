@@ -1,0 +1,74 @@
+{
+ "འདུལ་བ་མཐའ་དག་གི་སྙིང་པོའི་དོན་ལེགས་པར་བཤད་པ་རིན་པོ་ཆེའི་ཕྲེང་བ། སྟོད་ཆ།": {
+  "date": "2026-10-15",
+  "edition_id": "ma8SKahZ1IHkjur5Dvf8c",
+  "log": [
+   {
+    "step": "text",
+    "ts": "2026-10-15T06:29:05"
+   },
+   {
+    "chars": 699004,
+    "segments": 1894,
+    "step": "edition",
+    "ts": "2026-10-15T06:29:09"
+   },
+   {
+    "step": "toc",
+    "ts": "2026-10-15T06:29:13"
+   }
+  ],
+  "status": "uploaded",
+  "text_id": "l2ocfR8X94qdpAhtgcV4K",
+  "toc_id": "o36Rd2khAQPmx84eGWN0F",
+  "updated": "2026-10-15T06:29:13"
+ },
+ "འདུལ་བ་མཐའ་དག་གི་སྙིང་པོའི་དོན་ལེགས་པར་བཤད་པ་རིན་པོ་ཆེའི་ཕྲེང་བ། སྨད་ཆ།": {
+  "date": "2026-10-15",
+  "edition_id": "oP17p5ofW2BsuvtfLvuZI",
+  "log": [
+   {
+    "step": "text",
+    "ts": "2026-10-15T06:41:10"
+   },
+   {
+    "chars": 559616,
+    "segments": 1470,
+    "step": "edition",
+    "ts": "2026-10-15T06:41:13"
+   },
+   {
+    "step": "toc",
+    "ts": "2026-10-15T06:41:15"
+   }
+  ],
+  "status": "uploaded",
+  "text_id": "XFn2SBQFxFFAE3TezVARo",
+  "toc_id": "1IKGjotndGe4zGMAccDth",
+  "updated": "2026-10-15T06:41:15"
+ },
+ "འདུལ་བའི་མདོའི་རྒྱ་ཆེར་འགྲེལ་པ།": {
+  "date": "2026-10-15",
+  "edition_id": "GVbKlBlex2JHB2B5vVMRx",
+  "log": [
+   {
+    "step": "text",
+    "ts": "2026-10-15T06:57:17"
+   },
+   {
+    "chars": 1270745,
+    "segments": 2473,
+    "step": "edition",
+    "ts": "2026-10-15T06:57:24"
+   },
+   {
+    "step": "toc",
+    "ts": "2026-10-15T06:57:24"
+   }
+  ],
+  "status": "uploaded",
+  "text_id": "9n08oBOb7wnHjzVJk5h5V",
+  "toc_id": "RMZsDpSwLXZvybJgcdJBk",
+  "updated": "2026-10-15T06:57:24"
+ }
+}

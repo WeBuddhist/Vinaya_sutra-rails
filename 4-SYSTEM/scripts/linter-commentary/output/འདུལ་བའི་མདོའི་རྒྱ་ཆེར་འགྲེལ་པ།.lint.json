@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "source": "1-SOURCES/Commentaries/འདུལ་བའི་མདོའི་རྒྱ་ཆེར་འགྲེལ་པ།.md",
+  "validated_at": "2026-10-15T01:27:03.277841+00:00",
+  "notes": [
+    "bdrc_work_id: not set (optional)",
+    "wiki: not set (optional)",
+    "date: not set (optional)",
+    "translation_of: not set (optional)",
+    "commentary_of: 'BUFmgHSn21hSGhxBHJqqN'",
+    "root_text: '1-SOURCES/Text/འདུལ་བ་མདོ་རྩ་བ།.md'",
+    "tag_ids: not set (optional)",
+    "source: source = 'https://webuddhist.com/'",
+    "toc: 11 headers found"
+  ],
+  "warnings": [
+    "contributions: author/translator missing — ignored for now",
+    "alt_titles: missing — ignored for now"
+  ],
+  "text_input": {
+    "bdrc": null,
+    "wiki": null,
+    "date": null,
+    "title": {
+      "bo": "འདུལ་བའི་མདོའི་རྒྱ་ཆེར་འགྲེལ་པ།"
+    },
+    "alt_titles": null,
+    "language": "bo",
+    "commentary_of": "BUFmgHSn21hSGhxBHJqqN",
+    "category_id": "4wuvGxIgXNZ5mb0bDWvkC",
+    "license": "public",
+    "contributions": null,
+    "tag_ids": null
+  }
+}
