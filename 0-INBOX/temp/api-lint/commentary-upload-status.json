@@ -22,12 +22,24 @@
     "pairs": 1499,
     "step": "alignment",
     "ts": "2026-10-15T15:24:46"
+   },
+   {
+    "new": "oYEggU874msI6tVI139dG",
+    "old": "16WOgzUXkbnLpCTDIL5Qs",
+    "step": "toc-replace",
+    "ts": "2026-10-15T18:31:37"
+   }
+  ],
+  "replaced_tocs": [
+   {
+    "replaced_at": "2026-10-15T18:31:37",
+    "toc_id": "16WOgzUXkbnLpCTDIL5Qs"
    }
   ],
   "status": "uploaded",
   "text_id": "uGOpMpNfnzuCkZgscbta6",
-  "toc_id": "16WOgzUXkbnLpCTDIL5Qs",
-  "updated": "2026-10-15T15:24:46"
+  "toc_id": "oYEggU874msI6tVI139dG",
+  "updated": "2026-10-15T18:31:37"
  },
  "འདུལ་བ་མཐའ་དག་གི་སྙིང་པོའི་དོན་ལེགས་པར་བཤད་པ་རིན་པོ་ཆེའི་ཕྲེང་བ། སྟོད་ཆ།": {
   "aligned_to_edition_id": "u5iZFSA1oC6740V46UHK6",
@@ -52,12 +64,24 @@
     "pairs": 1836,
     "step": "alignment",
     "ts": "2026-10-15T16:03:14"
+   },
+   {
+    "new": "C0XetEH8W9fuYOtgMsObZ",
+    "old": "o36Rd2khAQPmx84eGWN0F",
+    "step": "toc-replace",
+    "ts": "2026-10-15T18:31:26"
+   }
+  ],
+  "replaced_tocs": [
+   {
+    "replaced_at": "2026-10-15T18:31:26",
+    "toc_id": "o36Rd2khAQPmx84eGWN0F"
    }
   ],
   "status": "uploaded",
   "text_id": "l2ocfR8X94qdpAhtgcV4K",
-  "toc_id": "o36Rd2khAQPmx84eGWN0F",
-  "updated": "2026-10-15T16:03:14"
+  "toc_id": "C0XetEH8W9fuYOtgMsObZ",
+  "updated": "2026-10-15T18:31:26"
  },
  "འདུལ་བ་མཐའ་དག་གི་སྙིང་པོའི་དོན་ལེགས་པར་བཤད་པ་རིན་པོ་ཆེའི་ཕྲེང་བ། སྨད་ཆ།": {
   "aligned_to_edition_id": "u5iZFSA1oC6740V46UHK6",
@@ -82,12 +106,24 @@
     "pairs": 1513,
     "step": "alignment",
     "ts": "2026-10-15T16:40:32"
+   },
+   {
+    "new": "hFmWOpuLJdC3QrK6Y7Vvh",
+    "old": "1IKGjotndGe4zGMAccDth",
+    "step": "toc-replace",
+    "ts": "2026-10-15T18:31:30"
+   }
+  ],
+  "replaced_tocs": [
+   {
+    "replaced_at": "2026-10-15T18:31:30",
+    "toc_id": "1IKGjotndGe4zGMAccDth"
    }
   ],
   "status": "uploaded",
   "text_id": "XFn2SBQFxFFAE3TezVARo",
-  "toc_id": "1IKGjotndGe4zGMAccDth",
-  "updated": "2026-10-15T16:40:32"
+  "toc_id": "hFmWOpuLJdC3QrK6Y7Vvh",
+  "updated": "2026-10-15T18:31:30"
  },
  "འདུལ་བའི་མདོའི་རྒྱ་ཆེར་འགྲེལ་པ།": {
   "aligned_to_edition_id": "u5iZFSA1oC6740V46UHK6",
