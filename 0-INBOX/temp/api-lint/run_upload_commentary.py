@@ -12,11 +12,19 @@ Without --execute it SENDS NOTHING. With --execute it posts, in order:
     3. POST /v2/editions/{edition_id}/table-of-contents <- toc.json -> toc_id
     4. POST /v2/editions/{edition_id}/durchens <- durchens.json   (one atomic request)
     5. POST /v2/editions/{edition_id}/yigchungs <- yigchungs.json (only when present)
+    6. PUT  /v2/editions/{root_edition}/alignments/{edition_id}
+                                               <- alignment.json  (only when it has pairs; the
+                                                  parser's commentary->root pairs are re-oriented
+                                                  root->commentary, as upload_translation.py does)
 
 and after each step writes the id into the commentary's own frontmatter (the file in
 0-INBOX/temp/segmented-commentary-with-toc/<stem>.md): text_id, edition_id, toc_id,
-durchen_count, yigchung_count. A step whose id is already in the frontmatter is skipped, so an
-interrupted run resumes. Ids are also kept in commentary-upload-status.json next to this script.
+durchen_count, yigchung_count, aligned_to_edition_id. A step whose id is already in the
+frontmatter is skipped, so an interrupted run resumes. Ids are also kept in
+commentary-upload-status.json next to this script.
+
+The root edition is the `edition_id` in the frontmatter of the commentary's `root_text` file.
+With live checks on, every root segment the alignment points at must exist in that edition.
 
 --execute needs --confirm <stem> (the same name again). Only run it after a human has approved
 the dry-run plan.
@@ -56,6 +64,32 @@ def find_source(stem):
         if p.exists():
             return p
     return None
+
+
+def _fm_value(text, key):
+    m = re.match(r"\A---\r?\n(.*?)\r?\n---", text, re.S)
+    if not m:
+        return None
+    k = re.search(rf"^{key}\s*:\s*\"?([^\"\r\n]*?)\"?\s*$", m.group(1), re.M)
+    return k.group(1) if k and k.group(1) else None
+
+
+def root_edition_id(src):
+    """The edition_id of the commentary's root_text file, or None."""
+    if not src:
+        return None
+    rel = _fm_value(src.read_text(encoding="utf-8"), "root_text")
+    if not rel:
+        return None
+    root = VAULT / rel
+    return _fm_value(root.read_text(encoding="utf-8"), "edition_id") if root.exists() else None
+
+
+def realign(p):
+    """The parser writes commentary->root pairs; the library is fed root->commentary."""
+    return [{"source_segment_reference": a["target_segment_reference"],
+             "target_segment_reference": a["source_segment_reference"]}
+            for a in p["alignment"].get("alignments", [])]
 
 
 def check(stem, live):
@@ -111,10 +145,18 @@ def check(stem, live):
         if not 0 <= sp["start"] < sp["end"] <= n:
             problems.append(f"yigchung span {sp} out of range")
             break
-    if p["alignment"].get("alignments") == []:
+    pairs = p["alignment"].get("alignments", [])
+    if pairs == []:
         warnings.append("alignment is empty: nothing is aligned to a root text")
+    else:
+        bad = sorted({a["source_segment_reference"] for a in pairs} - set(refs))
+        if bad:
+            problems.append(f"{len(bad)} alignment source ref(s) are not edition segments: {bad[:5]}")
 
     src = find_source(stem)
+    p["_root_edition"] = root_edition_id(src) if pairs else None
+    if pairs and not p["_root_edition"]:
+        problems.append("alignment has pairs but the root_text file has no edition_id to align to")
     if src:
         text = src.read_text(encoding="utf-8")
         m = re.match(r"\A---\r?\n(.*?)\r?\n---", text, re.S)
@@ -140,6 +182,21 @@ def check(stem, live):
                 hits = ub.call("GET", f"/v2/texts?bdrc={t['bdrc']}&limit=5").get("items", [])
                 if hits:
                     problems.append(f"a live text already has bdrc {t['bdrc']}: {[h.get('id') for h in hits]}")
+            if p["_root_edition"]:
+                live_refs, off = set(), 0
+                while True:
+                    d = ub.call("GET", f"/v2/editions/{p['_root_edition']}/segmentation/segments"
+                                       f"?limit=200&offset={off}")
+                    items = (d or {}).get("items") or (d or {}).get("segments") or []
+                    live_refs |= {s.get("reference") for s in items}
+                    if len(items) < 200:
+                        break
+                    off += 200
+                miss = sorted({a["target_segment_reference"] for a in pairs} - live_refs)
+                if miss:
+                    problems.append(f"{len(miss)} alignment target(s) missing on the live root edition "
+                                    f"{p['_root_edition']}: {miss[:5]}")
+                p["_root_segments"] = len(live_refs)
         except ub.ApiError as exc:
             warnings.append(f"live check skipped: {exc}")
     return p, problems, warnings
@@ -210,6 +267,15 @@ def execute(stem, p, src):
         entry["yigchung_ids"] = got
         done("yigchungs", "yigchung_count", len(marks))
 
+    root = p.get("_root_edition")
+    pairs = realign(p)
+    if pairs and root:
+        if _fm_value(src.read_text(encoding="utf-8"), "aligned_to_edition_id") == root:
+            print(f"    alignment skipped, aligned_to_edition_id = {root}")
+        else:
+            ub.call("PUT", f"/v2/editions/{root}/alignments/{eid}", {"alignments": pairs})
+            done("alignment", "aligned_to_edition_id", root, pairs=len(pairs))
+
     entry["status"] = "uploaded"
     entry["date"] = _dt.date.today().isoformat()
     save()
@@ -244,8 +310,14 @@ def main():
         print("  4. POST /v2/editions/{edition_id}/durchens <- durchens.json   (one atomic request)")
         if p.get("yigchungs"):
             print("  5. POST /v2/editions/{edition_id}/yigchungs <- yigchungs.json")
-        print("  alignment    : skipped (no root edition to align to)" if not p["alignment"].get("alignments")
-              else "  alignment    : PUT to the root edition (not implemented here)")
+        if p["alignment"].get("alignments") and p.get("_root_edition"):
+            pairs = realign(p)
+            print(f"  6. PUT  /v2/editions/{p['_root_edition']}/alignments/{{edition_id}} <- alignment.json")
+            print(f"       {len(pairs)} pairs root->commentary, {len({a['source_segment_reference'] for a in pairs})} "
+                  f"root segments -> {len({a['target_segment_reference'] for a in pairs})} commentary segments"
+                  + (f" (live root edition has {p['_root_segments']} segments)" if p.get("_root_segments") else ""))
+        else:
+            print("  alignment    : skipped (no pairs, or no root edition to align to)")
     for w in warnings:
         print(f"  WARN    {w}")
     for q in problems:
