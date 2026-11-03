@@ -1,0 +1,158 @@
+{
+ "བསྟན་བཅོས་འདུལ་བ་མདོ་རྩ་བའི་སྤྱི་དོན་ཊཱིཀ་ཆེན་རིན་ཆེན་ཕྲེང་བའི་དགོངས་རྒྱན།": {
+  "aligned_to_edition_id": "u5iZFSA1oC6740V46UHK6",
+  "date": "2026-10-15",
+  "edition_id": "Dtw367hx6g66xo6aar02P",
+  "log": [
+   {
+    "step": "text",
+    "ts": "2026-10-15T15:24:27"
+   },
+   {
+    "chars": 1073876,
+    "segments": 3235,
+    "step": "edition",
+    "ts": "2026-10-15T15:24:33"
+   },
+   {
+    "step": "toc",
+    "ts": "2026-10-15T15:24:37"
+   },
+   {
+    "pairs": 1499,
+    "step": "alignment",
+    "ts": "2026-10-15T15:24:46"
+   },
+   {
+    "new": "oYEggU874msI6tVI139dG",
+    "old": "16WOgzUXkbnLpCTDIL5Qs",
+    "step": "toc-replace",
+    "ts": "2026-10-15T18:31:37"
+   }
+  ],
+  "replaced_tocs": [
+   {
+    "replaced_at": "2026-10-15T18:31:37",
+    "toc_id": "16WOgzUXkbnLpCTDIL5Qs"
+   }
+  ],
+  "status": "uploaded",
+  "text_id": "uGOpMpNfnzuCkZgscbta6",
+  "toc_id": "oYEggU874msI6tVI139dG",
+  "updated": "2026-10-15T18:31:37"
+ },
+ "འདུལ་བ་མཐའ་དག་གི་སྙིང་པོའི་དོན་ལེགས་པར་བཤད་པ་རིན་པོ་ཆེའི་ཕྲེང་བ། སྟོད་ཆ།": {
+  "aligned_to_edition_id": "u5iZFSA1oC6740V46UHK6",
+  "date": "2026-10-15",
+  "edition_id": "ma8SKahZ1IHkjur5Dvf8c",
+  "log": [
+   {
+    "step": "text",
+    "ts": "2026-10-15T06:29:05"
+   },
+   {
+    "chars": 699004,
+    "segments": 1894,
+    "step": "edition",
+    "ts": "2026-10-15T06:29:09"
+   },
+   {
+    "step": "toc",
+    "ts": "2026-10-15T06:29:13"
+   },
+   {
+    "pairs": 1836,
+    "step": "alignment",
+    "ts": "2026-10-15T16:03:14"
+   },
+   {
+    "new": "C0XetEH8W9fuYOtgMsObZ",
+    "old": "o36Rd2khAQPmx84eGWN0F",
+    "step": "toc-replace",
+    "ts": "2026-10-15T18:31:26"
+   }
+  ],
+  "replaced_tocs": [
+   {
+    "replaced_at": "2026-10-15T18:31:26",
+    "toc_id": "o36Rd2khAQPmx84eGWN0F"
+   }
+  ],
+  "status": "uploaded",
+  "text_id": "l2ocfR8X94qdpAhtgcV4K",
+  "toc_id": "C0XetEH8W9fuYOtgMsObZ",
+  "updated": "2026-10-15T18:31:26"
+ },
+ "འདུལ་བ་མཐའ་དག་གི་སྙིང་པོའི་དོན་ལེགས་པར་བཤད་པ་རིན་པོ་ཆེའི་ཕྲེང་བ། སྨད་ཆ།": {
+  "aligned_to_edition_id": "u5iZFSA1oC6740V46UHK6",
+  "date": "2026-10-15",
+  "edition_id": "oP17p5ofW2BsuvtfLvuZI",
+  "log": [
+   {
+    "step": "text",
+    "ts": "2026-10-15T06:41:10"
+   },
+   {
+    "chars": 559616,
+    "segments": 1470,
+    "step": "edition",
+    "ts": "2026-10-15T06:41:13"
+   },
+   {
+    "step": "toc",
+    "ts": "2026-10-15T06:41:15"
+   },
+   {
+    "pairs": 1513,
+    "step": "alignment",
+    "ts": "2026-10-15T16:40:32"
+   },
+   {
+    "new": "hFmWOpuLJdC3QrK6Y7Vvh",
+    "old": "1IKGjotndGe4zGMAccDth",
+    "step": "toc-replace",
+    "ts": "2026-10-15T18:31:30"
+   }
+  ],
+  "replaced_tocs": [
+   {
+    "replaced_at": "2026-10-15T18:31:30",
+    "toc_id": "1IKGjotndGe4zGMAccDth"
+   }
+  ],
+  "status": "uploaded",
+  "text_id": "XFn2SBQFxFFAE3TezVARo",
+  "toc_id": "hFmWOpuLJdC3QrK6Y7Vvh",
+  "updated": "2026-10-15T18:31:30"
+ },
+ "འདུལ་བའི་མདོའི་རྒྱ་ཆེར་འགྲེལ་པ།": {
+  "aligned_to_edition_id": "u5iZFSA1oC6740V46UHK6",
+  "date": "2026-10-15",
+  "edition_id": "GVbKlBlex2JHB2B5vVMRx",
+  "log": [
+   {
+    "step": "text",
+    "ts": "2026-10-15T06:57:17"
+   },
+   {
+    "chars": 1270745,
+    "segments": 2473,
+    "step": "edition",
+    "ts": "2026-10-15T06:57:24"
+   },
+   {
+    "step": "toc",
+    "ts": "2026-10-15T06:57:24"
+   },
+   {
+    "pairs": 2820,
+    "step": "alignment",
+    "ts": "2026-10-15T17:19:20"
+   }
+  ],
+  "status": "uploaded",
+  "text_id": "9n08oBOb7wnHjzVJk5h5V",
+  "toc_id": "RMZsDpSwLXZvybJgcdJBk",
+  "updated": "2026-10-15T17:19:20"
+ }
+}

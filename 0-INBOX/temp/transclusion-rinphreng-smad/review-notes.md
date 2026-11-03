@@ -1,0 +1,1 @@
+- Removed P2 row 1399 → 19-11 (end of the written-out karman formula): its scope swallowed the whole Prātimokṣa recitation + liturgy (^5-110…^5-142), which is not root 19-11. The rite section 1236–1550 is now unaligned, like the other written-out liturgy.
